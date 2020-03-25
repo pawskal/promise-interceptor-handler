@@ -1,0 +1,19 @@
+{
+  "name": "@pskl/promise-interceptor-handler",
+  "version": "0.0.0",
+  "description": "Handle promises set when errored and repeat sequence after refresh function",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm i && npm run dev",
+    "build": "node_modules/.bin/tsc",
+    "test": "node_modules/.bin/ts-node test/test.ts"
+  },
+  "keywords": ["promise", "interceptor", "refresh token"],
+  "author": "pavel.ivanov <ipawskal@gmail.com> (https://github.com/pawskal)",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  }
+}
