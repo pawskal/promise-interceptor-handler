@@ -1,7 +1,7 @@
 {
   "name": "@pskl/promise-interceptor-handler",
   "version": "0.0.0",
-  "description": "Handle promises set when errored and repeat sequence after refresh function",
+  "description": "Handle promises set when errored and repeat failed sequence after refresh function",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
