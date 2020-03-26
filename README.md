@@ -5,9 +5,9 @@ Handle promises set when errored and repeat failed sequence after refresh functi
 ### Dirty example
 
 ``` typescript
-import RequestsInterceptor from '../index'
+import PromiseInterceptorHandler from '@pskl/promise-interceptor-handler'
 
-const interceptor = new RequestsInterceptor(
+const interceptor = new PromiseInterceptorHandler(
   () => new Promise(r => setTimeout(r, 10000)),
   () => true
 )

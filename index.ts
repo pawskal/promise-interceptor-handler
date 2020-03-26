@@ -1,3 +1,4 @@
-import { PromiseInterceptorHandler } from './lib'
+import * as lib from './lib'
 
-export default PromiseInterceptorHandler;
+export const PromiseInterceptorHandler = lib.PromiseInterceptorHandler
+export default lib.PromiseInterceptorHandler;
